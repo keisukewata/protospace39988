@@ -28,6 +28,7 @@ class PrototypesController < ApplicationController
    
   end
   
+  
   def update
    
     @prototype =Prototype.find(params[:id])
