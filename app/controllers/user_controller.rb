@@ -4,4 +4,8 @@ class UserController < ApplicationController
     @user = User.find_by(user_id)
     @prototype = @user.prototype
   end
+
+  def create
+  end
+  
 end
